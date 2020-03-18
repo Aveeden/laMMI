@@ -1,0 +1,48 @@
+
+
+body{
+
+
+    background-color: rgb(21, 179, 74);
+    margin: 0 auto;
+    width: 1000px;
+    font-family: 'Sen', sans-serif;
+
+}
+
+h1{
+
+    text-align: center;
+    background-color: rgb(65, 140, 224);
+    margin:10;
+    height: 150px;
+    line-height: 150px;
+    font-family: 'Sen', sans-serif;
+    font-size: 4rem;
+    
+}
+nav{
+
+    background-color: rgb(126, 61, 24);
+    padding: 10px;
+    text-align: center;
+    margin: 0 10;
+    display: flex;
+    justify-content: space-around;
+
+    
+
+}
+
+.p1 header{
+
+    font-size: 1.4rem;
+
+}
+
+section{
+
+    background-color: white;
+    border-radius: 5%;
+
+}
