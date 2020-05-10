@@ -55,16 +55,16 @@
             <form action="controllers/form_contact.php" method="POST" class="col-lg">
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="foo@bar.net">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="xxx@zz.net">
                 </div>
                 <div class="form-group">
                     <label for="first_name">Full name or company</label>
-                    <input type="text" class="form-control" name="full_name_or_company" placeholder="John Doe">
+                    <input type="text" class="form-control" name="nom" placeholder="Prenom Nom">
                 </div>
 
                 <div class="form-group">
-                    <label for="comment">Comment</label>
-                    <textarea class="form-control" name="comment" rows="10"></textarea>
+                    <label for="txt">Comment</label>
+                    <textarea class="form-control" name="txt" rows="10"></textarea>
                 </div>
                 <hr>
 
