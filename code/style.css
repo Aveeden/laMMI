@@ -1,48 +1,113 @@
-
+/* bryant : annotations et détails */
+@font-face {
+    font-family: 'BryantLight';
+    src: url('fonts/bryant/BryantPro-LightAlternate.woff2') format('woff2'),
+        url('fonts/bryant/BryantPro-LightAlternate.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;}
+@font-face {
+    font-family: 'BryantBold';
+    src: url('fonts/bryant/BryantPro-BoldAlternate.woff2') format('woff2'),
+        url('fonts/bryant/BryantPro-BoldAlternate.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;}
+@font-face {
+    font-family: 'Bryant';
+    src: url('fonts/bryant/BryantPro-RegularAlternate.woff2') format('woff2'),
+        url('fonts/bryant/BryantPro-RegularAlternate.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+/* proxima : textes */
+@font-face {
+    font-family: 'Proxima';
+    src: url('fonts/proxima-nova/ProximaNovaSoftW03-Regular.woff2') format('woff2'),
+        url('fonts/proxima-nova/ProximaNovaSoftW03-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+/* varela : titres */
+@font-face {
+    font-family: 'Varela';
+    src: url('fonts/varelaround/VarelaRound-Regular.woff2') format('woff2'),
+        url('fonts/varelaround/VarelaRound-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
 
 body{
-
-
-    background-color: rgb(21, 179, 74);
-    margin: 0 auto;
-    width: 1000px;
-    font-family: 'Sen', sans-serif;
-
+    overflow: hidden;
+    margin: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('img/fond.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1vw solid #000000;
+    box-sizing: border-box;
 }
 
-h1{
-
+h1, p{
+    font-family: Varela;
+    color: #2A2FAC;
+    -webkit-text-stroke: 1px black;
     text-align: center;
-    background-color: rgb(65, 140, 224);
-    margin:10;
-    height: 150px;
-    line-height: 150px;
-    font-family: 'Sen', sans-serif;
-    font-size: 4rem;
-    
-}
-nav{
-
-    background-color: rgb(126, 61, 24);
-    padding: 10px;
-    text-align: center;
-    margin: 0 10;
-    display: flex;
-    justify-content: space-around;
-
-    
-
+    font-size: 4.5vw;
 }
 
-.p1 header{
-
-    font-size: 1.4rem;
-
+p{
+    -webkit-text-stroke: 1.5px black;
+    padding-top: 23%;
+    font-size: 2vw;
 }
 
-section{
+input{
+    position: absolute;
+    top: 30vh;
+    width: 12vw;
+    left: 45vw;
+}
 
-    background-color: white;
-    border-radius: 5%;
+.topleftcorner{
+    margin: 0;
+    position: absolute;
+    width: 15vw;
+    background-color: #0C4CB6;
+    border-right: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    box-sizing: border-box;
+    padding: 5px;
+}
 
+.lieu, .domaine, .diplome{
+    font-family: varela;
+    font-size: 2vw;
+    background-image: url('img/fond-planete.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 500px;
+    color: #2A2FAC;
+    -webkit-text-stroke: 1px black;
+}
+
+.diplome{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 40vh;
+    left: 15vw;
+}
+
+.lieu{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 60vh;
+    left: 40vw;
+}
+
+.domaine{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 30vh;
+    left: 65vw;
 }
