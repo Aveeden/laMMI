@@ -27,16 +27,9 @@
         de l’école. De plus, la formation en école est davantage portée sur la pratique que la formation de DUT. Parmi
         les bachelors proposés en écoles du multimédia, vous pourrez trouver les parcours Chargé de projet digital,
         Stratégie digitale, Création, Motion Design, Design & Stratégies digitales et le bachelor informatique.</p>
-        <p class="">Après l’obtention du bachelor, vous pourrez commencer à travailler ou poursuivre vos études en master si vous le
+        <p class="">Après l’obtention du bachelor, vous pourrez commencer à travailler ou poursuivre vos études en master par exemple si vous le
         souhaitez.
     </p>
-    <p class="">Même si le DUT prépare directement à l'insertion professionnelle, une grande majorité des diplômés du DUT MMI
-        poursuivent leurs études.</p>
-        <p class="">Après le DUT MMI, les diplômés peuvent poursuivre en licence d'arts plastiques, information-communication ou
-        informatique ; en licence professionnelle métiers de l'informatique ; e-commerce et marketing numérique ;
-        métiers du numérique...</p> <p class="">Ils peuvent également poursuivre en école spécialisées en communication visuelle ou
-        création multimédia ou en écoles d'ingénieur proposant un cursus en informatique, réseaux, ou multimédia via des
-        admissions parallèles.</p>
     <h2>La liste des diplômes d'après-MMI</h2>
 <?php $sql = "SELECT diplome.*, ecole.* ,(diplome.nom) as intitule 
 FROM `formation`, `diplome`, `ecole` 
