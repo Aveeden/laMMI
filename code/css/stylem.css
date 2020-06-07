@@ -96,7 +96,29 @@ body {
     height: 400px;
     top: 30vh;
     left: 5vw;
+    -webkit-animation: diplome 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: diplome 0.4s cubic-bezier(0.450, 0.660, 0.650, 0.990) both;
 }
+@-webkit-keyframes diplome {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  @keyframes diplome {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
 
 .lieu {
     position: absolute;
@@ -104,7 +126,29 @@ body {
     height: 300px;
     top: 5vh;
     left: 35vw;
+    -webkit-animation: lieu 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: lieu 0.4s cubic-bezier(0.450, 0.660, 0.650, 0.990) both;
 }
+@-webkit-keyframes lieu {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  @keyframes lieu {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
 
 .domaine {
     position: absolute;
@@ -112,4 +156,26 @@ body {
     height: 500px;
     top: 10vh;
     left: 60vw;
+    -webkit-animation: domaine 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: domaine 0.4s cubic-bezier(0.450, 0.660, 0.650, 0.990) both;
 }
+@-webkit-keyframes domaine {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  @keyframes domaine {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
