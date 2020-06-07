@@ -1,3 +1,7 @@
+<?php 
+  include('../lib/app.php');
+  ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -32,6 +36,22 @@
         métiers du numérique...</p> <p class="">Ils peuvent également poursuivre en école spécialisées en communication visuelle ou
         création multimédia ou en écoles d'ingénieur proposant un cursus en informatique, réseaux, ou multimédia via des
         admissions parallèles.</p>
+    <h2>La liste des diplômes d'après-MMI</h2>
+<?php $sql = "SELECT diplome.*, ecole.* 
+FROM `formation`, `diplome`, `ecole` 
+WHERE diplome.id=1 
+AND formation.id_diplome=diplome.id 
+AND formation.id_ecole=ecole.id";
+
+$req = $link -> prepare($sql);
+$req -> execute();
+
+while($data = $req -> fetch()){
+    echo '<p>'.$data['diplome.nom'].' '.'disponible ici:'.$data['ecole.nom'].'</p>';
+}
+
+$req = null;
+?>
 </body>
 
 </html>
