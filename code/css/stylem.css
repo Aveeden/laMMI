@@ -1,24 +1,24 @@
 /* bryant : annotations et détails */
 @font-face {
     font-family: 'BryantLight';
-    src: url('fonts/bryant/BryantPro-LightAlternate.woff2') format('woff2'),
-        url('fonts/bryant/BryantPro-LightAlternate.woff') format('woff');
+    src: url('../fonts/bryant/BryantPro-LightAlternate.woff2') format('woff2'),
+        url('../fonts/bryant/BryantPro-LightAlternate.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'BryantBold';
-    src: url('fonts/bryant/BryantPro-BoldAlternate.woff2') format('woff2'),
-        url('fonts/bryant/BryantPro-BoldAlternate.woff') format('woff');
+    src: url('../fonts/bryant/BryantPro-BoldAlternate.woff2') format('woff2'),
+        url('..//bryant/BryantPro-BoldAlternate.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Bryant';
-    src: url('fonts/bryant/BryantPro-RegularAlternate.woff2') format('woff2'),
-        url('fonts/bryant/BryantPro-RegularAlternate.woff') format('woff');
+    src: url('..//bryant/BryantPro-RegularAlternate.woff2') format('woff2'),
+        url('..//bryant/BryantPro-RegularAlternate.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -26,8 +26,8 @@
 /* proxima : textes */
 @font-face {
     font-family: 'Proxima';
-    src: url('fonts/proxima-nova/ProximaNovaSoftW03-Regular.woff2') format('woff2'),
-        url('fonts/proxima-nova/ProximaNovaSoftW03-Regular.woff') format('woff');
+    src: url('../fonts/proxima-nova/ProximaNovaSoftW03-Regular.woff2') format('woff2'),
+        url('../fonts/proxima-nova/ProximaNovaSoftW03-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -35,8 +35,8 @@
 /* varela : titres */
 @font-face {
     font-family: 'Varela';
-    src: url('fonts/varelaround/VarelaRound-Regular.woff2') format('woff2'),
-        url('fonts/varelaround/VarelaRound-Regular.woff') format('woff');
+    src: url('../fonts/varelaround/VarelaRound-Regular.woff2') format('woff2'),
+        url('../fonts/varelaround/VarelaRound-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -55,7 +55,7 @@ body {
     position: absolute;
     height: 100vh;
     width: 100vw;
-    background-image: url('img/fond.jpg');
+    background-image: url('../img/fond.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -78,7 +78,7 @@ body {
     display: flex;
     font-family: varela;
     font-size: 250%;
-    background-image: url('img/fond-planete.jpg');
+    background-image: url('../img/fond-planete.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 500px;
