@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>l'aMMI | Contact</title>
+    <title>Acceuil</title>
     <link rel="stylesheet" href="../style.css">
     <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="img/logo-protut.png" type="image/x-icon">
 </head>
 
 <body>
