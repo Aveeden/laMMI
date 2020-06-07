@@ -1,5 +1,5 @@
 <?php 
-  include('../lib/app.php');
+  include('lib/app.php');
   ?>
 
 <!DOCTYPE html>
