@@ -1,7 +1,9 @@
 body {
+    margin: 0;
     background-image: url('../img/fond.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0;
     color: rgb(99, 27, 214);
     -webkit-text-stroke: 1px black;
@@ -10,64 +12,89 @@ body {
     width: 1400px;
 }
 
-h1{
+h1 {
 
     text-align: center;
 }
-h3{
+
+h3 {
     text-align: center;
 }
-p{
+
+p {
 
 
     font-size: 1.3em;
     color: rgb(146, 94, 231);
 }
 
-.cv{
+.cv {
 
     width: 100px;
     height: 100px;
 
 }
-.cv a{
+
+.cv a {
 
     display: flex;
     justify-content: center;
 
 }
-div .img4 {
 
-    display: block;
-    flex-direction: row-reverse;
+.img4 {
+    display: flex;
     justify-content: space-around;
-
-}
-.enligne{
-
-    height: 400px;
-    width: 330px;
 }
 
-.titre{
+.enligne {
+    height: 490px;
+
+
+}
+
+.titre {
     display: flex;
     justify-content: space-around;
 
 }
-section{
+
+section {
 
     display: flex;
     justify-content: space-around;
-    
-}
-section p{
-
-font-size: 1em;
-
 }
 
-a{
+section p {
+
+    font-size: 1em;
+
+}
+
+a {
 
     text-decoration: none;
 
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.container {
+    position: absolute;
+    top: 150vh;
+    left:35vw;
+    background: -webkit-linear-gradient(left, rgba(38, 0, 255, 0.527), rgb(139, 2, 128));
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 2vw;
+    border-radius: 10%;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+input:focus, textarea:focus {
+    outline: none;
 }

@@ -17,7 +17,7 @@
 
     $db = null;
 
-    header('Location: ../html/form.php?success=true');
+    header('Location: ../equipeammi.php?success=true');
   }else{ 
     http_response_code(500);
   }
