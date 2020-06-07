@@ -126,7 +126,7 @@ body {
   animation: lieu 0.5s cubic-bezier(0.450, 0.660, 0.650, 0.990) infinite alternate both;
 }
 
-.domaine {
+.equipe {
   position: absolute;
   width: 500px;
   height: 500px;
