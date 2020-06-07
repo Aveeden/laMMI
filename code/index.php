@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Acceuil</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
 </head>
 
@@ -52,7 +52,7 @@
     <div class="container">
         <h2>Contact</h2>
         <div class="row mt-4">
-            <form action="controllers/form_contact.php" method="POST" class="col-lg">
+            <form action="../controllers/form_contact.php" method="POST" class="col-lg">
                 <div class="form-group">
                     <label for="email">Email</label>
                     <input type="email" class="form-control" id="email" name="email" placeholder="xxx@zz.net">
