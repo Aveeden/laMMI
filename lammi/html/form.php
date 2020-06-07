@@ -54,21 +54,21 @@
         <div>
             <form action="../controllers/form_contact.php" method="POST">
                 <div>
-                    <label for="email">Email</label>
+                    <label for="email">Votre email:</label>
                     <input type="email" id="email" name="email" placeholder="xxx@zz.net">
                 </div>
                 <div class="form-group">
-                    <label for="first_name">Full name or company</label>
+                    <label for="first_name">Votre prénom suivi de votre nom:</label>
                     <input type="text" name="nom" placeholder="Prenom Nom">
                 </div>
 
                 <div>
-                    <label for="txt">Comment</label>
+                    <label for="txt">On vous écoute.</label>
                     <textarea name="txt" rows="10"></textarea>
                 </div>
                 <hr>
 
-                <button type="submit">Submit</button>
+                <button type="submit">Envoyer</button>
             </form>
         </div>
     </div>
