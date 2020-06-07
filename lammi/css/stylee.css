@@ -24,14 +24,6 @@ p{
     color: rgb(146, 94, 231);
 }
 
-.img{
-
-    
-    height: 400px;
-    width: 300px;
-
-
-}
 .cv{
 
     width: 100px;
@@ -44,12 +36,17 @@ p{
     justify-content: center;
 
 }
-div .img4{
+div .img4 {
 
     display: block;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
+}
+.enligne{
+
+    height: 400px;
+    width: 330px;
 }
 
 .titre{
@@ -61,11 +58,16 @@ section{
 
     display: flex;
     justify-content: space-around;
-
-
+    
 }
 section p{
 
 font-size: 1em;
+
+}
+
+a{
+
+    text-decoration: none;
 
 }

@@ -15,6 +15,10 @@
 <body>
     <h1>Les Écoles</h1>
 
+    <p>Après la MMI, beaucoup d'écoles sont prêtes à accueillir les tout-nouveaux diplômés pour leur permettent de poursuivre leurs études.
+        Nombreuses sont ces écoles, donc voici un récapitulatif pour vos permettrent de vous y retrouver !
+    </p>
+
     <?php $sql = "SELECT diplome.*, ecole.* ,(diplome.nom) as intitule 
 FROM `formation`, `diplome`, `ecole` 
 WHERE ecole.id=1 
@@ -25,7 +29,7 @@ $req = $db -> prepare($sql);
 $req -> execute();
 
 while($data = $req -> fetch()){
-    echo '<p>'.$data['nom'].' '.'<b>'.', disponible ici: '.'</b>'.$data['intitule'].'</p>';
+    echo '<p>'.$data['nom'].' '.'<b>'.', propose ceci: '.'</b>'.$data['intitule'].'</p>';
 }
 
 $req = null;
