@@ -1,42 +1,37 @@
 body {
-
-
-    background-image:url(../img/omae.jpg) ;
+    background-image: url('../img/fond.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
-
-
-}
-.topleftcorner{
-    margin: 0;
-    position: absolute;
-    width: 15vw;
-    background-color: #0C4CB6;
-    border-right: 5px solid #000000;
-    border-bottom: 5px solid #000000;
-    box-sizing: border-box;
-    padding: 0px;
+    color: rgb(67, 48, 235);
+    -webkit-text-stroke: 1px black;
+    font-family: texte;
+    font-size: 2vw;
 }
 
-h1{
 
+::-webkit-scrollbar{
+    width: 0;
+}
 
+p {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+}
+
+h1 {
     text-align: center;
     margin: 0;
-    margin-top: 10px;
+    padding-top: 5vh;
+    font-size: 5vw;
+    
 }
 
-h3{
-
+h3 {
     text-align: center;
 }
 
-p{
-
-    width: 800px;
+p {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-
 }

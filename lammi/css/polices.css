@@ -40,3 +40,12 @@
     font-weight: normal;
     font-style: normal;
 }
+
+.logo {
+    position: absolute;
+    width: 10vw;
+    background: linear-gradient(to right, rgba(51, 15, 255, 0.5), rgb(134, 5, 124, 0.5));
+    border-right: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    border-bottom-right-radius: 35%;
+  }

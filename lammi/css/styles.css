@@ -62,7 +62,7 @@ input {
 }
 
 input:hover {
-    transform: scale(1.75);
+    transform: scale(2);
     left: 45vw;
     top: 28vh;
     transition-duration: 1s;

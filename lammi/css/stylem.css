@@ -1,138 +1,137 @@
-body {
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
+@-webkit-keyframes domaine {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
 }
 
-.menu{
-    opacity: 0;
+@keyframes domaine {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+
+@-webkit-keyframes diplome {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+
+@keyframes diplome {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+
+@-webkit-keyframes lieu {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+
+@keyframes lieu {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    -webkit-box-shadow: 0 0 200px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 200px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+
+body {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  opacity: 0;
 }
 
 .fond {
-    position: absolute;
-    height: 100vh;
-    width: 100vw;
-    background-image: url('../img/fond.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.logo {
-    position: absolute;
-    width: 10vw;
-    background: linear-gradient(to right, rgba(51, 15, 255, 0.5), rgb(134, 5, 124, 0.5));
-    border-right: 5px solid #000000;
-    border-bottom: 5px solid #000000;
-    border-bottom-right-radius: 35%;
-    border-bottom-left-radius: 5%;
-    border-top-right-radius: 5%;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../img/fond.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .lieu,
 .domaine,
 .diplome,
 .help {
-    display: flex;
-    font-family: titre;
-    font-size: 250%;
-    background-image: url('../img/fond-planete.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 500px;
-    color: #2A2FAC;
-    -webkit-text-stroke: 1px black;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    border: black 3px solid;
+  display: flex;
+  font-family: titre;
+  font-size: 250%;
+  background-image: url('../img/fond-planete.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 500px;
+  color: #2A2FAC;
+  -webkit-text-stroke: 1px black;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: black 3px solid;
 }
 
 .diplome {
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    top: 30vh;
-    left: 5vw;
-    -webkit-animation: diplome 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: diplome 0.4s cubic-bezier(0.450, 0.660, 0.650, 0.990) both;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 30vh;
+  left: 5vw;
+  animation: diplome 0.5s cubic-bezier(0.450, 0.660, 0.650, 0.990) infinite alternate both;
 }
-@-webkit-keyframes diplome {
-    0% {
-      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    }
-    100% {
-      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-    }
-  }
-  @keyframes diplome {
-    0% {
-      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    }
-    100% {
-      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-    }
-  }
 
 .lieu {
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    top: 5vh;
-    left: 35vw;
-    -webkit-animation: lieu 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: lieu 0.4s cubic-bezier(0.450, 0.660, 0.650, 0.990) both;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 5vh;
+  left: 35vw;
+  animation: lieu 0.5s cubic-bezier(0.450, 0.660, 0.650, 0.990) infinite alternate both;
 }
-@-webkit-keyframes lieu {
-    0% {
-      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    }
-    100% {
-      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-    }
-  }
-  @keyframes lieu {
-    0% {
-      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    }
-    100% {
-      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-    }
-  }
 
 .domaine {
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    top: 10vh;
-    left: 60vw;
-    -webkit-animation: domaine 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: domaine 0.4s cubic-bezier(0.450, 0.660, 0.650, 0.990) both;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 10vh;
+  left: 60vw;
+  animation: domaine 0.5s cubic-bezier(0.450, 0.660, 0.650, 0.990) infinite alternate both;
 }
-@-webkit-keyframes domaine {
-    0% {
-      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    }
-    100% {
-      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-    }
-  }
-  @keyframes domaine {
-    0% {
-      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    }
-    100% {
-      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-    }
-  }
+
