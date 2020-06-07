@@ -10,15 +10,15 @@
 @font-face {
     font-family: 'BryantBold';
     src: url('../fonts/bryant/BryantPro-BoldAlternate.woff2') format('woff2'),
-        url('..//bryant/BryantPro-BoldAlternate.woff') format('woff');
+        url('../bryant/BryantPro-BoldAlternate.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Bryant';
-    src: url('..//bryant/BryantPro-RegularAlternate.woff2') format('woff2'),
-        url('..//bryant/BryantPro-RegularAlternate.woff') format('woff');
+    src: url('../bryant/BryantPro-RegularAlternate.woff2') format('woff2'),
+        url('../bryant/BryantPro-RegularAlternate.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
