@@ -1,0 +1,42 @@
+/* bryant : annotations et détails */
+@font-face {
+    font-family: 'detailfin';
+    src: url('../fonts/bryant/BryantPro-LightAlternate.woff2') format('woff2'),
+        url('../fonts/bryant/BryantPro-LightAlternate.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'detailgras';
+    src: url('../fonts/bryant/BryantPro-BoldAlternate.woff2') format('woff2'),
+        url('../fonts/bryant/BryantPro-BoldAlternate.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'detail';
+    src: url('../fonts/bryant/BryantPro-RegularAlternate.woff2') format('woff2'),
+        url('../fonts/bryant/BryantPro-RegularAlternate.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* proxima : textes */
+@font-face {
+    font-family: 'texte';
+    src: url('../fonts/proxima-nova/ProximaNovaSoftW03-Regular.woff2') format('woff2'),
+        url('../fonts/proxima-nova/ProximaNovaSoftW03-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* varela : titres */
+@font-face {
+    font-family: 'titre';
+    src: url('../fonts/varelaround/VarelaRound-Regular.woff2') format('woff2'),
+        url('../fonts/varelaround/VarelaRound-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
