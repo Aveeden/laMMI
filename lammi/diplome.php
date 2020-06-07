@@ -1,5 +1,6 @@
 <?php 
   include('lib/app.php');
+  $db = getDatabase();
   ?>
 
 <!DOCTYPE html>
@@ -37,17 +38,17 @@
         création multimédia ou en écoles d'ingénieur proposant un cursus en informatique, réseaux, ou multimédia via des
         admissions parallèles.</p>
     <h2>La liste des diplômes d'après-MMI</h2>
-<?php $sql = "SELECT diplome.*, ecole.* 
+<?php $sql = "SELECT diplome.*, ecole.* ,(diplome.nom) as intitule 
 FROM `formation`, `diplome`, `ecole` 
 WHERE diplome.id=1 
 AND formation.id_diplome=diplome.id 
 AND formation.id_ecole=ecole.id";
 
-$req = $link -> prepare($sql);
+$req = $db -> prepare($sql);
 $req -> execute();
 
 while($data = $req -> fetch()){
-    echo '<p>'.$data['diplome.nom'].' '.'disponible ici:'.$data['ecole.nom'].'</p>';
+    echo '<p>'.$data['intitule'].' '.'<b>'.', disponible ici: '.'</b>'.$data['nom'].'</p>';
 }
 
 $req = null;
