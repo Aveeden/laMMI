@@ -1,0 +1,71 @@
+body {
+    background-image: url('../img/fond.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    color: rgb(99, 27, 214);
+    -webkit-text-stroke: 1px black;
+    font-family: texte;
+    font-size: 1.8vw;
+    width: 1400px;
+}
+
+h1{
+
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+
+
+    font-size: 1.3em;
+    color: rgb(146, 94, 231);
+}
+
+.img{
+
+    
+    height: 400px;
+    width: 300px;
+
+
+}
+.cv{
+
+    width: 100px;
+    height: 100px;
+
+}
+.cv a{
+
+    display: flex;
+    justify-content: center;
+
+}
+div .img4{
+
+    display: block;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+
+}
+
+.titre{
+    display: flex;
+    justify-content: space-around;
+
+}
+section{
+
+    display: flex;
+    justify-content: space-around;
+
+
+}
+section p{
+
+font-size: 1em;
+
+}
