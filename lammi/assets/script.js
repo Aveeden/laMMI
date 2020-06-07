@@ -9,7 +9,7 @@ $(document).ready(function() {
         $('.fond#index').css({"filter":"blur(0px)","transition-duration":"6000ms","transform":"scale(1)"});
         $('audio#index')[0].play();
         setTimeout(() => {
-            window.location.href="../html/menu.html";
+            window.location.href="menu.html";
         }, 6000);
     }))
 
