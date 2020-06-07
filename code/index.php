@@ -51,24 +51,24 @@
 
     <div class="container">
         <h2>Contact</h2>
-        <div class="row mt-4">
-            <form action="../controllers/form_contact.php" method="POST" class="col-lg">
-                <div class="form-group">
+        <div>
+            <form action="../controllers/form_contact.php" method="POST">
+                <div>
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="xxx@zz.net">
+                    <input type="email" id="email" name="email" placeholder="xxx@zz.net">
                 </div>
                 <div class="form-group">
                     <label for="first_name">Full name or company</label>
-                    <input type="text" class="form-control" name="nom" placeholder="Prenom Nom">
+                    <input type="text" name="nom" placeholder="Prenom Nom">
                 </div>
 
-                <div class="form-group">
+                <div>
                     <label for="txt">Comment</label>
-                    <textarea class="form-control" name="txt" rows="10"></textarea>
+                    <textarea name="txt" rows="10"></textarea>
                 </div>
                 <hr>
 
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit">Submit</button>
             </form>
         </div>
     </div>
