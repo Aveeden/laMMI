@@ -4,110 +4,112 @@
     src: url('fonts/bryant/BryantPro-LightAlternate.woff2') format('woff2'),
         url('fonts/bryant/BryantPro-LightAlternate.woff') format('woff');
     font-weight: 300;
-    font-style: normal;}
+    font-style: normal;
+}
+
 @font-face {
     font-family: 'BryantBold';
     src: url('fonts/bryant/BryantPro-BoldAlternate.woff2') format('woff2'),
         url('fonts/bryant/BryantPro-BoldAlternate.woff') format('woff');
     font-weight: bold;
-    font-style: normal;}
+    font-style: normal;
+}
+
 @font-face {
     font-family: 'Bryant';
     src: url('fonts/bryant/BryantPro-RegularAlternate.woff2') format('woff2'),
         url('fonts/bryant/BryantPro-RegularAlternate.woff') format('woff');
     font-weight: normal;
-    font-style: normal;}
+    font-style: normal;
+}
+
 /* proxima : textes */
 @font-face {
     font-family: 'Proxima';
     src: url('fonts/proxima-nova/ProximaNovaSoftW03-Regular.woff2') format('woff2'),
         url('fonts/proxima-nova/ProximaNovaSoftW03-Regular.woff') format('woff');
     font-weight: normal;
-    font-style: normal;}
+    font-style: normal;
+}
+
 /* varela : titres */
 @font-face {
     font-family: 'Varela';
     src: url('fonts/varelaround/VarelaRound-Regular.woff2') format('woff2'),
         url('fonts/varelaround/VarelaRound-Regular.woff') format('woff');
     font-weight: normal;
-    font-style: normal;}
+    font-style: normal;
+}
 
-body{
+body {
     overflow: hidden;
+    padding: 0;
     margin: 0;
+}
+
+.menu{
+    opacity: 0;
+}
+
+.fond {
     position: absolute;
     height: 100vh;
     width: 100vw;
     background-image: url('img/fond.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1vw solid #000000;
-    box-sizing: border-box;
 }
 
-h1, p{
-    font-family: Varela;
-    color: #2A2FAC;
-    -webkit-text-stroke: 1px black;
-    text-align: center;
-    font-size: 4.5vw;
-}
-
-p{
-    -webkit-text-stroke: 1.5px black;
-    padding-top: 23%;
-    font-size: 2vw;
-}
-
-input{
+.logo {
     position: absolute;
-    top: 30vh;
-    width: 12vw;
-    left: 45vw;
-}
-
-.topleftcorner{
-    margin: 0;
-    position: absolute;
-    width: 15vw;
-    background-color: #0C4CB6;
+    width: 10vw;
+    background: linear-gradient(to right, rgba(51, 15, 255, 0.5), rgb(134, 5, 124, 0.5));
     border-right: 5px solid #000000;
     border-bottom: 5px solid #000000;
-    box-sizing: border-box;
-    padding: 5px;
+    border-bottom-right-radius: 35%;
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
 }
 
-.lieu, .domaine, .diplome{
+.lieu,
+.domaine,
+.diplome,
+.help {
+    display: flex;
     font-family: varela;
-    font-size: 2vw;
+    font-size: 250%;
     background-image: url('img/fond-planete.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 500px;
     color: #2A2FAC;
     -webkit-text-stroke: 1px black;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: black 3px solid;
 }
 
-.diplome{
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    top: 40vh;
-    left: 15vw;
-}
-
-.lieu{
+.diplome {
     position: absolute;
     width: 400px;
     height: 400px;
-    top: 60vh;
-    left: 40vw;
+    top: 30vh;
+    left: 5vw;
 }
 
-.domaine{
+.lieu {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 5vh;
+    left: 35vw;
+}
+
+.domaine {
     position: absolute;
     width: 500px;
     height: 500px;
-    top: 30vh;
-    left: 65vw;
+    top: 10vh;
+    left: 60vw;
 }

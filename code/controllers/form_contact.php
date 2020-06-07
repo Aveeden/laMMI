@@ -4,7 +4,7 @@
   if($_SERVER['request_method'] =='post'){
     $db = getDatabase();
 
-    $sql = "INSERT INTO contact (prenom, nom, age, email, txt,) VALUES (:prenom, :nom, :age, :email, :txt)";
+    $sql = "INSERT INTO form_contact (prenom, nom, age, email, txt,) VALUES (:prenom, :nom, :age, :email, :txt)";
 
     $attributes = array(
       'prenom' => $_POST['prenom'],
@@ -19,9 +19,9 @@
 
     $db = null;
 
-    header(/*string:*/'Location: ../index.php?success=true');
+    header('Location: ../menu.php?success=true');
   }else{ 
-    http_response_code(/*response_code:*/ 500);
+    http_response_code(500);
   }
 
 ?>

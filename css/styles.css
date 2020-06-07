@@ -1,0 +1,122 @@
+/* bryant : annotations et détails */
+@font-face {
+    font-family: 'detailfin';
+    src: url('fonts/bryant/BryantPro-LightAlternate.woff2') format('woff2'),
+        url('fonts/bryant/BryantPro-LightAlternate.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'detailgras';
+    src: url('fonts/bryant/BryantPro-BoldAlternate.woff2') format('woff2'),
+        url('fonts/bryant/BryantPro-BoldAlternate.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'detail';
+    src: url('fonts/bryant/BryantPro-RegularAlternate.woff2') format('woff2'),
+        url('fonts/bryant/BryantPro-RegularAlternate.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* proxima : textes */
+@font-face {
+    font-family: 'texte';
+    src: url('fonts/proxima-nova/ProximaNovaSoftW03-Regular.woff2') format('woff2'),
+        url('fonts/proxima-nova/ProximaNovaSoftW03-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* varela : titres */
+@font-face {
+    font-family: 'titre';
+    src: url('fonts/varelaround/VarelaRound-Regular.woff2') format('woff2'),
+        url('fonts/varelaround/VarelaRound-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+.fond {
+    position: absolute;
+    z-index: -2;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('img/fond.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    filter: blur(15px);
+    transform: scale(1.5);
+}
+
+h1,
+p {
+    font-family: titre;
+    background: -webkit-linear-gradient(left, rgb(38, 0, 255), rgb(255, 0, 234));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 4.5vw;
+    animation: float 5s ease-in-out infinite;
+}
+
+p {
+    padding-top: 23%;
+    font-size: 3.2vw;
+    font-family: detail;
+    font-weight: bold;
+    -webkit-text-stroke: 0.1px rgba(0, 0, 0, 0.5);
+    letter-spacing: -5px;
+    animation: float 8s ease-in-out infinite;
+}
+
+input {
+    position: absolute;
+    top: 22vh;
+    width: 25vw;
+    left: 38vw;
+    outline: none;
+}
+
+input:hover {
+    transform: scale(2);
+    left: 45vw;
+    top: 28vh;
+    transition-duration: 1s;
+}
+
+input:not(:hover) {
+    transition-duration: 1s;
+}
+
+audio {
+    display: flex;
+    position: absolute;
+    opacity: 0;
+}
