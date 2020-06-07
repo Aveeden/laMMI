@@ -13,6 +13,9 @@
     <title>Écoles</title>
 </head>
 <body>
+<audio src="sounds/Ambiance.mp3" autoplay loop></audio>
+<a href="menu.html"><img class="logo" src="img/logo-protut.png"></a>
+
     <h1>Les Écoles</h1>
 
     <p>Après la MMI, beaucoup d'écoles sont prêtes à accueillir les tout-nouveaux diplômés pour leur permettent de poursuivre leurs études.

@@ -16,6 +16,7 @@
             Message sent successfully!
         </div>
     <?php endif; ?>
+    <audio src="sounds/Ambiance.mp3" autoplay loop></audio>
     <a href="menu.html"><img class="logo" src="img/logo-protut.png"></a>
     <h1>Notre équipe</h1>
 
