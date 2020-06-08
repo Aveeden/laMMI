@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     margin: 0;
     color: rgb(67, 48, 235);
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 0.25px white;
     font-family: texte;
     font-size: 2vw;
 }

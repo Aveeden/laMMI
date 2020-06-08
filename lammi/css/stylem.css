@@ -101,7 +101,7 @@ body {
   background-size: cover;
   border-radius: 500px;
   color: #2A2FAC;
-  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke: 0.25px white;
   align-items: center;
   justify-content: center;
   text-decoration: none;

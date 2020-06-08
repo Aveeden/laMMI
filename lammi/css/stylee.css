@@ -6,7 +6,7 @@ body {
     background-attachment: fixed;
     margin: 0;
     color: rgb(99, 27, 214);
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 0.25px white;
     font-family: texte;
     font-size: 1.8vw;
     width: 1400px;
